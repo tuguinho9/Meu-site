@@ -1,0 +1,61 @@
+body {
+    text-align:center;
+}
+#nome {
+    font-family: 'Lato', sans-serif;
+    font-size:50px;
+    color:white;
+}
+img {
+    border-radius:20px;
+}
+#apresentaçao {
+    background-image:url("plano-de-fundo-preto28.webp");
+    background-size:cover;
+}
+.titulos {
+    font-family: 'Lato', sans-serif;
+    font-size:45px
+}
+#hobbies {
+    background-image:url("fundo.jpg");
+    background-size:cover;
+}
+.hbb {
+    width:250px;
+    height:250px;
+    box-shadow: 10px 5px 5px blue;
+    margin: 10px;
+}
+.ul {
+    list-style: none;
+    position:absolute;
+    text-align: center;
+    right: 30px;
+    z-index: 90;
+    cursor: pointer;
+    position:fixed;
+    top: 0;
+}
+.menu {
+    float: left;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+a {
+    text-decoration: none;
+    color:purple;
+    font-size: 25px;
+}
+#lugares {
+    background-image:url("fundo2.jpg");
+}
+.contato h3 {
+display: inline;
+}
+#back {
+    border-radius: 20px;
+    background-color: peru;
+}

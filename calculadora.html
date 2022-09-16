@@ -1,0 +1,33 @@
+<html> 
+    <head>
+        <title> Calculadora </title>
+        <link rel= "stylesheet" href="ccalculadora.css">
+        <script src="mcalculadora.js"> </script>
+    </head>
+    <body> 
+        <h1 id="titulo"> Calculadora </h1>
+        <h1 id="ap"> </h1>
+        <div class="numero">
+       Primeiro número:  
+       <input type= "number" class="soma" id="numero1"> </input>
+        </div>  
+        <br>
+        <br>
+        <div class="numero">
+            Segundo número:
+            <input type="number" class="soma" id="numero2"> </input>
+        </div>
+        <p id="number"> </p>
+        <span class="botao"> <img onclick="soma()" src="sinal-de-mais.png">
+        </span>
+        <span class="botao"> <img onclick="menos()" src="sinal-de-menos.png">
+        </span>
+        <div class="botao"> <img onclick="multiplicar()" src="multiplicacao.png">
+       </div>
+       <div class="botao"> <img onclick="dividir()" src="divisao.png">
+       </div>
+       <br>
+       <br>
+       <button id="ir"onclick="voltar()"> Veja o meu site! </button>
+    </body>
+</html>

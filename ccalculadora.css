@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background-image:url("images.jpg");
+    background-size: cover;
+}
+.soma {
+    background-color: cornflowerblue;
+    width: 140px;
+    height: 30px;
+    font-size: 26px
+}
+img {
+    width: 10%;
+}
+#titulo {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.numero {
+    font-size: 26px;
+}
+#ir {
+    border-radius: 20px;
+    background-color: peru;
+}
